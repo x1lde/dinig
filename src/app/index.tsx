@@ -1,5 +1,6 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { router } from 'expo-router';
 
 export default function HomeScreen() {
   return (
@@ -20,12 +21,11 @@ export default function HomeScreen() {
 
         {/* Actions */}
         <View style={styles.actions}>
-          <Pressable style={styles.primaryButton}>
-            <Text style={styles.primaryButtonText}>I want to vent</Text>
-          </Pressable>
-
-          <Pressable style={styles.secondaryButton}>
-            <Text style={styles.secondaryButtonText}>I ready to listen</Text>
+          <Pressable
+            style={styles.primaryButton}
+            onPress={() => router.push('/onboarding/index.tsx')}
+          >
+            <Text style={styles.primaryButtonText}>Get Started</Text>
           </Pressable>
         </View>
 
