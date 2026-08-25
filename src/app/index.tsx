@@ -23,7 +23,7 @@ export default function HomeScreen() {
         <View style={styles.actions}>
           <Pressable
             style={styles.primaryButton}
-            onPress={() => router.push('/onboarding/index.tsx')}
+            onPress={() => router.push('/onboarding')}
           >
             <Text style={styles.primaryButtonText}>Get Started</Text>
           </Pressable>
