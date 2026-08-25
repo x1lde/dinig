@@ -8,7 +8,7 @@ export default function OnboardingScreen() {
         <View style={styles.content}>
         {/* Header */}
         <View>
-            <Text style={styles.logo}>Dinig</Text>
+            <Text style={styles.logo}>DINIG</Text>
 
             <Text style={styles.title}>What brings you here?</Text>
 
@@ -23,7 +23,7 @@ export default function OnboardingScreen() {
             <Text style={styles.icon}>💬</Text>
 
             <View style={styles.optionText}>
-                <Text style={styles.optionTitle}>I need someone to talk to</Text>
+                <Text style={styles.optionTitle}>I want to vent</Text>
 
                 <Text style={styles.optionDescription}>
                 Share what's on your mind with someone willing to listen.
@@ -35,7 +35,7 @@ export default function OnboardingScreen() {
             <Text style={styles.icon}>👂</Text>
 
             <View style={styles.optionText}>
-                <Text style={styles.optionTitle}>I want to listen</Text>
+                <Text style={styles.optionTitle}>I'm ready to listen</Text>
 
                 <Text style={styles.optionDescription}>
                 Give someone your time and a space to be heard.
